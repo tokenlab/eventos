@@ -1,0 +1,77 @@
+html {
+    font-family: 'Lato', sans-serif;
+    background: #efefef;
+    color: #424041;
+    background-image: url('icones.png');
+    background-repeat: repeat;
+    background-size: 500px;
+}
+
+.wrap {
+    box-sizing: border-box;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+h1,
+h3 {
+    font-weight: 900;
+    color: #589CD4;
+    text-transform: uppercase;
+}
+
+h1 {
+    text-shadow: 3px 3px 0 #1D6D99;
+    font-size: 2.28rem;
+    margin: 0.3em 0;
+}
+
+h2 {
+    margin-top: 2rem;
+}
+
+h3 {
+    text-shadow: 2px 2px 0 #1D6D99;
+    /* font-size: 2.28rem; */
+    margin: 0.3em 0;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #B3B3B3;
+}
+
+h1 .light {
+    font-weight: 400;
+    color: #424041;
+    text-shadow: none;
+    text-transform: none;
+}
+
+.margin-bottom {
+    margin-bottom: 4rem;
+}
+
+p,
+li {
+    text-align: justify;
+}
+
+.rubber-duck {
+    max-width: 120px;
+    display: block;
+    margin: 1rem auto;
+    padding: 1.7rem;
+    background: #fff;
+    border-radius: 5000px;
+}
+
+.logo {
+    max-width: 250px;
+    display: block;
+    margin: 1rem auto;
+}
+
+.thin-margin p {
+    margin: 0.4rem 0;
+}
